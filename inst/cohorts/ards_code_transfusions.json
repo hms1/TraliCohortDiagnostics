@@ -1,0 +1,670 @@
+{
+  "ConceptSets": [
+    {
+      "id": 0,
+      "name": "[FDA CD] Transfusion ISBTs",
+      "expression": {
+        "items": [
+          {
+            "concept": {
+              "CONCEPT_ID": 42680581,
+              "CONCEPT_NAME": "CONCURRENT PLASMA, APHERESIS",
+              "STANDARD_CONCEPT": "C",
+              "STANDARD_CONCEPT_CAPTION": "Classification",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "C0051",
+              "DOMAIN_ID": "Device",
+              "VOCABULARY_ID": "ISBT Attribute",
+              "CONCEPT_CLASS_ID": "ISBT Class"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 42681041,
+              "CONCEPT_NAME": "CONVALESCENT PLASMA",
+              "STANDARD_CONCEPT": "C",
+              "STANDARD_CONCEPT_CAPTION": "Classification",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "C0310",
+              "DOMAIN_ID": "Device",
+              "VOCABULARY_ID": "ISBT Attribute",
+              "CONCEPT_CLASS_ID": "ISBT Class"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 42680538,
+              "CONCEPT_NAME": "CRYOPRECIPITATE",
+              "STANDARD_CONCEPT": "C",
+              "STANDARD_CONCEPT_CAPTION": "Classification",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "C0008",
+              "DOMAIN_ID": "Device",
+              "VOCABULARY_ID": "ISBT Attribute",
+              "CONCEPT_CLASS_ID": "ISBT Class"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 42680457,
+              "CONCEPT_NAME": "FRESH FROZEN PLASMA",
+              "STANDARD_CONCEPT": "C",
+              "STANDARD_CONCEPT_CAPTION": "Classification",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "C0003",
+              "DOMAIN_ID": "Device",
+              "VOCABULARY_ID": "ISBT Attribute",
+              "CONCEPT_CLASS_ID": "ISBT Class"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 42680582,
+              "CONCEPT_NAME": "HPC, WHOLE BLOOD",
+              "STANDARD_CONCEPT": "C",
+              "STANDARD_CONCEPT_CAPTION": "Classification",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "C0052",
+              "DOMAIN_ID": "Device",
+              "VOCABULARY_ID": "ISBT Attribute",
+              "CONCEPT_CLASS_ID": "ISBT Class"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 42681116,
+              "CONCEPT_NAME": "IMMUNE PLASMA",
+              "STANDARD_CONCEPT": "C",
+              "STANDARD_CONCEPT_CAPTION": "Classification",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "C0385",
+              "DOMAIN_ID": "Device",
+              "VOCABULARY_ID": "ISBT Attribute",
+              "CONCEPT_CLASS_ID": "ISBT Class"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 721749,
+              "CONCEPT_NAME": "MNC, WHOLE BLOOD",
+              "STANDARD_CONCEPT": "C",
+              "STANDARD_CONCEPT_CAPTION": "Classification",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "C0453",
+              "DOMAIN_ID": "Device",
+              "VOCABULARY_ID": "ISBT Attribute",
+              "CONCEPT_CLASS_ID": "ISBT Class"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 42680588,
+              "CONCEPT_NAME": "NC, WHOLE BLOOD",
+              "STANDARD_CONCEPT": "C",
+              "STANDARD_CONCEPT_CAPTION": "Classification",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "C0058",
+              "DOMAIN_ID": "Device",
+              "VOCABULARY_ID": "ISBT Attribute",
+              "CONCEPT_CLASS_ID": "ISBT Class"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 42680621,
+              "CONCEPT_NAME": "NK CELLS, WHOLE BLOOD",
+              "STANDARD_CONCEPT": "C",
+              "STANDARD_CONCEPT_CAPTION": "Classification",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "C0091",
+              "DOMAIN_ID": "Device",
+              "VOCABULARY_ID": "ISBT Attribute",
+              "CONCEPT_CLASS_ID": "ISBT Class"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 42680458,
+              "CONCEPT_NAME": "PLASMA",
+              "STANDARD_CONCEPT": "C",
+              "STANDARD_CONCEPT_CAPTION": "Classification",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "C0004",
+              "DOMAIN_ID": "Device",
+              "VOCABULARY_ID": "ISBT Attribute",
+              "CONCEPT_CLASS_ID": "ISBT Class"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 42681042,
+              "CONCEPT_NAME": "PLATELET LYSATE",
+              "STANDARD_CONCEPT": "C",
+              "STANDARD_CONCEPT_CAPTION": "Classification",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "C0311",
+              "DOMAIN_ID": "Device",
+              "VOCABULARY_ID": "ISBT Attribute",
+              "CONCEPT_CLASS_ID": "ISBT Class"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 42680545,
+              "CONCEPT_NAME": "PLATELET-RICH BUFFY COAT",
+              "STANDARD_CONCEPT": "C",
+              "STANDARD_CONCEPT_CAPTION": "Classification",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "C0015",
+              "DOMAIN_ID": "Device",
+              "VOCABULARY_ID": "ISBT Attribute",
+              "CONCEPT_CLASS_ID": "ISBT Class"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 42680535,
+              "CONCEPT_NAME": "PLATELET-RICH PLASMA",
+              "STANDARD_CONCEPT": "C",
+              "STANDARD_CONCEPT_CAPTION": "Classification",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "C0005",
+              "DOMAIN_ID": "Device",
+              "VOCABULARY_ID": "ISBT Attribute",
+              "CONCEPT_CLASS_ID": "ISBT Class"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 42680536,
+              "CONCEPT_NAME": "PLATELETS",
+              "STANDARD_CONCEPT": "C",
+              "STANDARD_CONCEPT_CAPTION": "Classification",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "C0006",
+              "DOMAIN_ID": "Device",
+              "VOCABULARY_ID": "ISBT Attribute",
+              "CONCEPT_CLASS_ID": "ISBT Class"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 42680539,
+              "CONCEPT_NAME": "POOLED CRYOPRECIPITATE",
+              "STANDARD_CONCEPT": "C",
+              "STANDARD_CONCEPT_CAPTION": "Classification",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "C0009",
+              "DOMAIN_ID": "Device",
+              "VOCABULARY_ID": "ISBT Attribute",
+              "CONCEPT_CLASS_ID": "ISBT Class"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 42680551,
+              "CONCEPT_NAME": "POOLED FRESH FROZEN PLASMA",
+              "STANDARD_CONCEPT": "C",
+              "STANDARD_CONCEPT_CAPTION": "Classification",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "C0021",
+              "DOMAIN_ID": "Device",
+              "VOCABULARY_ID": "ISBT Attribute",
+              "CONCEPT_CLASS_ID": "ISBT Class"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 42680544,
+              "CONCEPT_NAME": "POOLED PLASMA",
+              "STANDARD_CONCEPT": "C",
+              "STANDARD_CONCEPT_CAPTION": "Classification",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "C0014",
+              "DOMAIN_ID": "Device",
+              "VOCABULARY_ID": "ISBT Attribute",
+              "CONCEPT_CLASS_ID": "ISBT Class"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 42680546,
+              "CONCEPT_NAME": "POOLED PLATELET-RICH BUFFY COAT",
+              "STANDARD_CONCEPT": "C",
+              "STANDARD_CONCEPT_CAPTION": "Classification",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "C0016",
+              "DOMAIN_ID": "Device",
+              "VOCABULARY_ID": "ISBT Attribute",
+              "CONCEPT_CLASS_ID": "ISBT Class"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 42680537,
+              "CONCEPT_NAME": "POOLED PLATELETS",
+              "STANDARD_CONCEPT": "C",
+              "STANDARD_CONCEPT_CAPTION": "Classification",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "C0007",
+              "DOMAIN_ID": "Device",
+              "VOCABULARY_ID": "ISBT Attribute",
+              "CONCEPT_CLASS_ID": "ISBT Class"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 42680550,
+              "CONCEPT_NAME": "POOLED SERUM",
+              "STANDARD_CONCEPT": "C",
+              "STANDARD_CONCEPT_CAPTION": "Classification",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "C0020",
+              "DOMAIN_ID": "Device",
+              "VOCABULARY_ID": "ISBT Attribute",
+              "CONCEPT_CLASS_ID": "ISBT Class"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 42681018,
+              "CONCEPT_NAME": "RADIOLABELED DIAGNOSTICS, PLATELETS",
+              "STANDARD_CONCEPT": "C",
+              "STANDARD_CONCEPT_CAPTION": "Classification",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "C0287",
+              "DOMAIN_ID": "Device",
+              "VOCABULARY_ID": "ISBT Attribute",
+              "CONCEPT_CLASS_ID": "ISBT Class"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 42681019,
+              "CONCEPT_NAME": "RADIOLABELED DIAGNOSTICS, RBC",
+              "STANDARD_CONCEPT": "C",
+              "STANDARD_CONCEPT_CAPTION": "Classification",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "C0288",
+              "DOMAIN_ID": "Device",
+              "VOCABULARY_ID": "ISBT Attribute",
+              "CONCEPT_CLASS_ID": "ISBT Class"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 42680456,
+              "CONCEPT_NAME": "RED BLOOD CELLS",
+              "STANDARD_CONCEPT": "C",
+              "STANDARD_CONCEPT_CAPTION": "Classification",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "C0002",
+              "DOMAIN_ID": "Device",
+              "VOCABULARY_ID": "ISBT Attribute",
+              "CONCEPT_CLASS_ID": "ISBT Class"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 42680549,
+              "CONCEPT_NAME": "SERUM",
+              "STANDARD_CONCEPT": "C",
+              "STANDARD_CONCEPT_CAPTION": "Classification",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "C0019",
+              "DOMAIN_ID": "Device",
+              "VOCABULARY_ID": "ISBT Attribute",
+              "CONCEPT_CLASS_ID": "ISBT Class"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 42681125,
+              "CONCEPT_NAME": "SERUM, DILUTED",
+              "STANDARD_CONCEPT": "C",
+              "STANDARD_CONCEPT_CAPTION": "Classification",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "C0394",
+              "DOMAIN_ID": "Device",
+              "VOCABULARY_ID": "ISBT Attribute",
+              "CONCEPT_CLASS_ID": "ISBT Class"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 42681016,
+              "CONCEPT_NAME": "SOLVENT DETERGENT POOLED PLASMA",
+              "STANDARD_CONCEPT": "C",
+              "STANDARD_CONCEPT_CAPTION": "Classification",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "C0285",
+              "DOMAIN_ID": "Device",
+              "VOCABULARY_ID": "ISBT Attribute",
+              "CONCEPT_CLASS_ID": "ISBT Class"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 42680615,
+              "CONCEPT_NAME": "T CELLS, WHOLE BLOOD",
+              "STANDARD_CONCEPT": "C",
+              "STANDARD_CONCEPT_CAPTION": "Classification",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "C0085",
+              "DOMAIN_ID": "Device",
+              "VOCABULARY_ID": "ISBT Attribute",
+              "CONCEPT_CLASS_ID": "ISBT Class"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 42680455,
+              "CONCEPT_NAME": "WHOLE BLOOD",
+              "STANDARD_CONCEPT": "C",
+              "STANDARD_CONCEPT_CAPTION": "Classification",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "C0001",
+              "DOMAIN_ID": "Device",
+              "VOCABULARY_ID": "ISBT Attribute",
+              "CONCEPT_CLASS_ID": "ISBT Class"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 916966,
+              "CONCEPT_NAME": "iPSC, WHOLE BLOOD",
+              "STANDARD_CONCEPT": "C",
+              "STANDARD_CONCEPT_CAPTION": "Classification",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "C0447",
+              "DOMAIN_ID": "Device",
+              "VOCABULARY_ID": "ISBT Attribute",
+              "CONCEPT_CLASS_ID": "ISBT Class"
+            },
+            "includeDescendants": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 1,
+      "name": "[FDA CD] ARDS",
+      "expression": {
+        "items": [
+          {
+            "concept": {
+              "CONCEPT_ID": 46273719,
+              "CONCEPT_NAME": "Acute hypercapnic respiratory failure",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "709110009",
+              "DOMAIN_ID": "Condition",
+              "VOCABULARY_ID": "SNOMED",
+              "CONCEPT_CLASS_ID": "Clinical Finding"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 46271075,
+              "CONCEPT_NAME": "Acute hypoxemic respiratory failure",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "709111008",
+              "DOMAIN_ID": "Condition",
+              "VOCABULARY_ID": "SNOMED",
+              "CONCEPT_CLASS_ID": "Clinical Finding"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 4191650,
+              "CONCEPT_NAME": "Acute respiratory distress",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "373895009",
+              "DOMAIN_ID": "Condition",
+              "VOCABULARY_ID": "SNOMED",
+              "CONCEPT_CLASS_ID": "Clinical Finding"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 4195694,
+              "CONCEPT_NAME": "Acute respiratory distress syndrome",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "67782005",
+              "DOMAIN_ID": "Condition",
+              "VOCABULARY_ID": "SNOMED",
+              "CONCEPT_CLASS_ID": "Clinical Finding"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 319049,
+              "CONCEPT_NAME": "Acute respiratory failure",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "65710008",
+              "DOMAIN_ID": "Condition",
+              "VOCABULARY_ID": "SNOMED",
+              "CONCEPT_CLASS_ID": "Clinical Finding"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 46271074,
+              "CONCEPT_NAME": "Hypercapnic respiratory failure",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "709109004",
+              "DOMAIN_ID": "Condition",
+              "VOCABULARY_ID": "SNOMED",
+              "CONCEPT_CLASS_ID": "Clinical Finding"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 37395564,
+              "CONCEPT_NAME": "Hypoxemic respiratory failure",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "10676831000119101",
+              "DOMAIN_ID": "Condition",
+              "VOCABULARY_ID": "SNOMED",
+              "CONCEPT_CLASS_ID": "Clinical Finding"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 4256228,
+              "CONCEPT_NAME": "Respiratory failure",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "409622000",
+              "DOMAIN_ID": "Condition",
+              "VOCABULARY_ID": "SNOMED",
+              "CONCEPT_CLASS_ID": "Clinical Finding"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 318459,
+              "CONCEPT_NAME": "Respiratory insufficiency",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "409623005",
+              "DOMAIN_ID": "Condition",
+              "VOCABULARY_ID": "SNOMED",
+              "CONCEPT_CLASS_ID": "Clinical Finding"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "PrimaryCriteria": {
+    "CriteriaList": [
+      {
+        "VisitOccurrence": {}
+      }
+    ],
+    "ObservationWindow": {
+      "PriorDays": 0,
+      "PostDays": 0
+    },
+    "PrimaryCriteriaLimit": {
+      "Type": "All"
+    }
+  },
+  "AdditionalCriteria": {
+    "Type": "ALL",
+    "CriteriaList": [
+      {
+        "Criteria": {
+          "DeviceExposure": {
+            "CodesetId": 0,
+            "OccurrenceStartDate": {
+              "Value": "2010-01-01",
+              "Op": "gte"
+            }
+          }
+        },
+        "StartWindow": {
+          "Start": {
+            "Days": 0,
+            "Coeff": -1
+          },
+          "End": {
+            "Coeff": 1
+          },
+          "UseEventEnd": false
+        },
+        "RestrictVisit": true,
+        "Occurrence": {
+          "Type": 2,
+          "Count": 1
+        }
+      },
+      {
+        "Criteria": {
+          "ConditionOccurrence": {
+            "CodesetId": 1
+          }
+        },
+        "StartWindow": {
+          "Start": {
+            "Days": 0,
+            "Coeff": -1
+          },
+          "End": {
+            "Coeff": 1
+          },
+          "UseEventEnd": false
+        },
+        "RestrictVisit": true,
+        "Occurrence": {
+          "Type": 2,
+          "Count": 1
+        }
+      }
+    ],
+    "DemographicCriteriaList": [],
+    "Groups": []
+  },
+  "QualifiedLimit": {
+    "Type": "All"
+  },
+  "ExpressionLimit": {
+    "Type": "All"
+  },
+  "InclusionRules": [],
+  "EndStrategy": {
+    "DateOffset": {
+      "DateField": "StartDate",
+      "Offset": 1
+    }
+  },
+  "CensoringCriteria": [],
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {},
+  "cdmVersionRange": ">=5.0.0"
+}
