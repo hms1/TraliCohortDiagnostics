@@ -132,7 +132,7 @@ execute <- function(connectionDetails,
                                               databaseId = databaseId,
                                               databaseName = databaseName,
                                               databaseDescription = databaseDescription,
-                                              runInclusionStatistics = FALSE
+                                              runInclusionStatistics = FALSE,
                                               runIncludedSourceConcepts = TRUE,
                                               runOrphanConcepts = FALSE,
                                               runTimeDistributions = TRUE,
