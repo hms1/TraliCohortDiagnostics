@@ -444,7 +444,7 @@
       }
     },
     {
-      "id": 1,
+      "id": 2,
       "name": " [FDA CD] TRALI",
       "expression": {
         "items": [
@@ -513,7 +513,7 @@
       {
         "Criteria": {
           "ConditionOccurrence": {
-            "CodesetId": 1
+            "CodesetId": 2
           }
         },
         "StartWindow": {
