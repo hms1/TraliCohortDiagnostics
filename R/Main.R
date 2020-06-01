@@ -109,9 +109,9 @@ execute <- function(connectionDetails,
                                               packageName = "cohortEvaluationTrali",
                                               cohortToCreateFile = cohortGroups$fileName[i],
                                               createCohortTable = TRUE,
-                                              generateInclusionStats = TRUE,
+                                              generateInclusionStats = FALSE,
                                               inclusionStatisticsFolder = cohortGroups$inclusionStatisticsFolder[i],
-                                              incremental = TRUE,
+                                              incremental = FALSE,
                                               incrementalFolder = cohortGroups$incrementalFolder[i])
       
     }
@@ -132,16 +132,16 @@ execute <- function(connectionDetails,
                                               databaseId = databaseId,
                                               databaseName = databaseName,
                                               databaseDescription = databaseDescription,
-                                              runInclusionStatistics = TRUE,
-                                              runIncludedSourceConcepts = TRUE,
-                                              runOrphanConcepts = TRUE,
+                                              runInclusionStatistics = FALSE,
+                                              runIncludedSourceConcepts = FALSE,
+                                              runOrphanConcepts = FALSE,
                                               runTimeDistributions = TRUE,
-                                              runBreakdownIndexEvents = TRUE,
+                                              runBreakdownIndexEvents = FALSE,
                                               runIncidenceRate = TRUE,
                                               runCohortOverlap = TRUE,
                                               runCohortCharacterization = TRUE,
                                               minCellCount = minCellCount,
-                                              incremental = TRUE,
+                                              incremental = FALSE,
                                               incrementalFolder = cohortGroups$incrementalFolder[i])
     }
   }
