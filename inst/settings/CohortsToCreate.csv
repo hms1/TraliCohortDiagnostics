@@ -1,0 +1,9 @@
+atlasId,atlasName,cohortId,name
+2388,Transfusion,2388,transfusion_visits
+2548,ARDS (ARDS index),2548,ards_index
+2554,ARDS (ARDS index 14d),2554,ards_index_14
+2397,ARDS (visit index),2397,ards_visit_index
+2552,TRALI (transfusion index),2552,trali_trans_index
+2551,TRALI (TRALI index),2551,trali_trali_index
+2549,Sensitive Phenotype (both indexes),2549,sensitive_v1
+2553,Sensitive Phenotype (imaging index),2553,sensitive_v2

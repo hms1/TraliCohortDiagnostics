@@ -1,26 +1,20 @@
 Package: cohortEvaluationTrali
 Type: Package
-Title: cohortEvaluationTrali
-Version: 0.0.2
+Title: A Package Skeleton for Cohort Diagnostics
+Version: 0.1.0
 Author: Martijn Schuemie [aut, cre]
 Maintainer: Martijn J. Schuemie <schuemie@ohdsi.org>
-Description: A central package for evaluation the cohorts used in the various Trali studies.
+Description: A skeleton package, to be used as a starting point when you just want to run cohort diagnostics.
 Depends:
     DatabaseConnector (>= 2.2.0)
 Imports:
-	CohortDiagnostics (>= 0.1.2),
-	ParallelLogger,
-	OhdsiSharing (>= 0.2.1),
-	readr
+	CohortDiagnostics
 Suggests:
     knitr,
-    rmarkdown
-Remotes:
-    ohdsi/CohortDiagnostics,
-    ohdsi/OhdsiSharing
+    rmarkdown,
+    ROhdsiWebApi,
+    OhdsiRTools
 License: Apache License 2.0
 VignetteBuilder: knitr
-URL: https://ohdsi-studies.github.io/Covid19CohortEvaluation, https://github.com/ohdsi-studies/Covid19CohortEvaluation
-BugReports: https://github.com/ohdsi-studies/Covid19CohortEvaluation/issues
 LazyData: TRUE
 RoxygenNote: 7.0.2

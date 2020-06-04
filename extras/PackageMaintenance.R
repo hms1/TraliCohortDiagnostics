@@ -1,6 +1,6 @@
-# Copyright 2020 Observational Health Data Sciences and Informatics
+# Copyright 2019 Observational Health Data Sciences and Informatics
 #
-# This file is part of Covid19CohortEvaluation
+# This file is part of examplePackage
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,28 +16,21 @@
 
 # Format and check code ---------------------------------------------------
 OhdsiRTools::formatRFolder()
-OhdsiRTools::checkUsagePackage("Covid19CohortEvaluation")
+OhdsiRTools::checkUsagePackage("examplePackage")
 OhdsiRTools::updateCopyrightYearFolder()
 
 # Create manual -----------------------------------------------------------
-unlink("extras/Covid19CohortEvaluation.pdf")
-shell("R CMD Rd2pdf ./ --output=extras/Covid19CohortEvaluation.pdf")
-
-pkgdown::build_site()
+shell("rm extras/examplePackage.pdf")
+shell("R CMD Rd2pdf ./ --output=extras/examplePackage.pdf")
 
 
 # Insert cohort definitions from ATLAS into package -----------------------
-cohortGroups <- read.csv("inst/settings/CohortGroups.csv")
-for (i in 1:nrow(cohortGroups)) {
-  ParallelLogger::logInfo("* Importing cohorts in group: ", cohortGroups$cohortGroup[i], " *")
-  ROhdsiWebApi::insertCohortDefinitionSetInPackage(fileName = file.path("inst", cohortGroups$fileName[i]),
-                                                   baseUrl = Sys.getenv("baseUrl"),
-                                                   insertTableSql = TRUE,
-                                                   insertCohortCreationR = FALSE,
-                                                   generateStats = TRUE,
-                                                   packageName = "Covid19CohortEvaluation")
-}
-unlink("inst/cohorts/InclusionRules.csv")
+ROhdsiWebApi::insertCohortDefinitionSetInPackage(fileName = "inst/settings/CohortsToCreate.csv",
+                                                 baseUrl = Sys.getenv("ohdsiBaseUrl"),
+                                                 insertTableSql = TRUE,
+                                                 insertCohortCreationR = TRUE,
+                                                 generateStats = TRUE,
+                                                 packageName = "examplePackage")
 
 # Store environment in which the study was executed -----------------------
-OhdsiRTools::insertEnvironmentSnapshotInPackage("Covid19CohortEvaluation")
+OhdsiRTools::insertEnvironmentSnapshotInPackage("examplePackage")

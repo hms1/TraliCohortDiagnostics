@@ -1,5 +1,0 @@
-name,atlasName,atlasId,cohortId
-all_transfusions,Visits with a transfusion,1,1
-trali_transfusions,Visits with a transfusions and TRALI code,2,2
-ards_transfusions,Visits with a transfusions and ARDS code,3,3
-sensitive_phenotype,Sensitive Phenotype,4,4

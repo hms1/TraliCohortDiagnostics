@@ -1,4 +1,55 @@
 {
+  "cdmVersionRange": [">=5.0.0"],
+  "PrimaryCriteria": {
+    "CriteriaList": [
+      {
+        "ConditionOccurrence": {
+          "CodesetId": 1,
+          "ConditionTypeExclude": false
+        }
+      }
+    ],
+    "ObservationWindow": {
+      "PriorDays": [0],
+      "PostDays": [0]
+    },
+    "PrimaryCriteriaLimit": {
+      "Type": ["All"]
+    }
+  },
+  "AdditionalCriteria": {
+    "Type": ["ALL"],
+    "CriteriaList": [
+      {
+        "Criteria": {
+          "ProcedureOccurrence": {
+            "CodesetId": 0,
+            "ProcedureTypeExclude": false
+          }
+        },
+        "StartWindow": {
+          "Start": {
+            "Coeff": -1
+          },
+          "End": {
+            "Days": 0,
+            "Coeff": 1
+          },
+          "UseIndexEnd": false,
+          "UseEventEnd": false
+        },
+        "RestrictVisit": true,
+        "IgnoreObservationPeriod": false,
+        "Occurrence": {
+          "Type": 2,
+          "Count": 1,
+          "IsDistinct": false
+        }
+      }
+    ],
+    "DemographicCriteriaList": [],
+    "Groups": []
+  },
   "ConceptSets": [
     {
       "id": 0,
@@ -18,7 +69,9 @@
               "VOCABULARY_ID": "ISBT Attribute",
               "CONCEPT_CLASS_ID": "ISBT Class"
             },
-            "includeDescendants": true
+            "isExcluded": false,
+            "includeDescendants": true,
+            "includeMapped": false
           },
           {
             "concept": {
@@ -33,7 +86,9 @@
               "VOCABULARY_ID": "ISBT Attribute",
               "CONCEPT_CLASS_ID": "ISBT Class"
             },
-            "includeDescendants": true
+            "isExcluded": false,
+            "includeDescendants": true,
+            "includeMapped": false
           },
           {
             "concept": {
@@ -48,7 +103,9 @@
               "VOCABULARY_ID": "ISBT Attribute",
               "CONCEPT_CLASS_ID": "ISBT Class"
             },
-            "includeDescendants": true
+            "isExcluded": false,
+            "includeDescendants": true,
+            "includeMapped": false
           },
           {
             "concept": {
@@ -63,7 +120,9 @@
               "VOCABULARY_ID": "ISBT Attribute",
               "CONCEPT_CLASS_ID": "ISBT Class"
             },
-            "includeDescendants": true
+            "isExcluded": false,
+            "includeDescendants": true,
+            "includeMapped": false
           },
           {
             "concept": {
@@ -78,7 +137,9 @@
               "VOCABULARY_ID": "ISBT Attribute",
               "CONCEPT_CLASS_ID": "ISBT Class"
             },
-            "includeDescendants": true
+            "isExcluded": false,
+            "includeDescendants": true,
+            "includeMapped": false
           },
           {
             "concept": {
@@ -93,7 +154,9 @@
               "VOCABULARY_ID": "ISBT Attribute",
               "CONCEPT_CLASS_ID": "ISBT Class"
             },
-            "includeDescendants": true
+            "isExcluded": false,
+            "includeDescendants": true,
+            "includeMapped": false
           },
           {
             "concept": {
@@ -108,7 +171,9 @@
               "VOCABULARY_ID": "ISBT Attribute",
               "CONCEPT_CLASS_ID": "ISBT Class"
             },
-            "includeDescendants": true
+            "isExcluded": false,
+            "includeDescendants": true,
+            "includeMapped": false
           },
           {
             "concept": {
@@ -123,7 +188,9 @@
               "VOCABULARY_ID": "ISBT Attribute",
               "CONCEPT_CLASS_ID": "ISBT Class"
             },
-            "includeDescendants": true
+            "isExcluded": false,
+            "includeDescendants": true,
+            "includeMapped": false
           },
           {
             "concept": {
@@ -138,7 +205,9 @@
               "VOCABULARY_ID": "ISBT Attribute",
               "CONCEPT_CLASS_ID": "ISBT Class"
             },
-            "includeDescendants": true
+            "isExcluded": false,
+            "includeDescendants": true,
+            "includeMapped": false
           },
           {
             "concept": {
@@ -153,7 +222,9 @@
               "VOCABULARY_ID": "ISBT Attribute",
               "CONCEPT_CLASS_ID": "ISBT Class"
             },
-            "includeDescendants": true
+            "isExcluded": false,
+            "includeDescendants": true,
+            "includeMapped": false
           },
           {
             "concept": {
@@ -168,7 +239,9 @@
               "VOCABULARY_ID": "ISBT Attribute",
               "CONCEPT_CLASS_ID": "ISBT Class"
             },
-            "includeDescendants": true
+            "isExcluded": false,
+            "includeDescendants": true,
+            "includeMapped": false
           },
           {
             "concept": {
@@ -183,7 +256,9 @@
               "VOCABULARY_ID": "ISBT Attribute",
               "CONCEPT_CLASS_ID": "ISBT Class"
             },
-            "includeDescendants": true
+            "isExcluded": false,
+            "includeDescendants": true,
+            "includeMapped": false
           },
           {
             "concept": {
@@ -198,7 +273,9 @@
               "VOCABULARY_ID": "ISBT Attribute",
               "CONCEPT_CLASS_ID": "ISBT Class"
             },
-            "includeDescendants": true
+            "isExcluded": false,
+            "includeDescendants": true,
+            "includeMapped": false
           },
           {
             "concept": {
@@ -213,7 +290,9 @@
               "VOCABULARY_ID": "ISBT Attribute",
               "CONCEPT_CLASS_ID": "ISBT Class"
             },
-            "includeDescendants": true
+            "isExcluded": false,
+            "includeDescendants": true,
+            "includeMapped": false
           },
           {
             "concept": {
@@ -228,7 +307,9 @@
               "VOCABULARY_ID": "ISBT Attribute",
               "CONCEPT_CLASS_ID": "ISBT Class"
             },
-            "includeDescendants": true
+            "isExcluded": false,
+            "includeDescendants": true,
+            "includeMapped": false
           },
           {
             "concept": {
@@ -243,7 +324,9 @@
               "VOCABULARY_ID": "ISBT Attribute",
               "CONCEPT_CLASS_ID": "ISBT Class"
             },
-            "includeDescendants": true
+            "isExcluded": false,
+            "includeDescendants": true,
+            "includeMapped": false
           },
           {
             "concept": {
@@ -258,7 +341,9 @@
               "VOCABULARY_ID": "ISBT Attribute",
               "CONCEPT_CLASS_ID": "ISBT Class"
             },
-            "includeDescendants": true
+            "isExcluded": false,
+            "includeDescendants": true,
+            "includeMapped": false
           },
           {
             "concept": {
@@ -273,7 +358,9 @@
               "VOCABULARY_ID": "ISBT Attribute",
               "CONCEPT_CLASS_ID": "ISBT Class"
             },
-            "includeDescendants": true
+            "isExcluded": false,
+            "includeDescendants": true,
+            "includeMapped": false
           },
           {
             "concept": {
@@ -288,7 +375,9 @@
               "VOCABULARY_ID": "ISBT Attribute",
               "CONCEPT_CLASS_ID": "ISBT Class"
             },
-            "includeDescendants": true
+            "isExcluded": false,
+            "includeDescendants": true,
+            "includeMapped": false
           },
           {
             "concept": {
@@ -303,7 +392,9 @@
               "VOCABULARY_ID": "ISBT Attribute",
               "CONCEPT_CLASS_ID": "ISBT Class"
             },
-            "includeDescendants": true
+            "isExcluded": false,
+            "includeDescendants": true,
+            "includeMapped": false
           },
           {
             "concept": {
@@ -318,7 +409,9 @@
               "VOCABULARY_ID": "ISBT Attribute",
               "CONCEPT_CLASS_ID": "ISBT Class"
             },
-            "includeDescendants": true
+            "isExcluded": false,
+            "includeDescendants": true,
+            "includeMapped": false
           },
           {
             "concept": {
@@ -333,7 +426,9 @@
               "VOCABULARY_ID": "ISBT Attribute",
               "CONCEPT_CLASS_ID": "ISBT Class"
             },
-            "includeDescendants": true
+            "isExcluded": false,
+            "includeDescendants": true,
+            "includeMapped": false
           },
           {
             "concept": {
@@ -348,7 +443,9 @@
               "VOCABULARY_ID": "ISBT Attribute",
               "CONCEPT_CLASS_ID": "ISBT Class"
             },
-            "includeDescendants": true
+            "isExcluded": false,
+            "includeDescendants": true,
+            "includeMapped": false
           },
           {
             "concept": {
@@ -363,7 +460,9 @@
               "VOCABULARY_ID": "ISBT Attribute",
               "CONCEPT_CLASS_ID": "ISBT Class"
             },
-            "includeDescendants": true
+            "isExcluded": false,
+            "includeDescendants": true,
+            "includeMapped": false
           },
           {
             "concept": {
@@ -378,7 +477,9 @@
               "VOCABULARY_ID": "ISBT Attribute",
               "CONCEPT_CLASS_ID": "ISBT Class"
             },
-            "includeDescendants": true
+            "isExcluded": false,
+            "includeDescendants": true,
+            "includeMapped": false
           },
           {
             "concept": {
@@ -393,7 +494,9 @@
               "VOCABULARY_ID": "ISBT Attribute",
               "CONCEPT_CLASS_ID": "ISBT Class"
             },
-            "includeDescendants": true
+            "isExcluded": false,
+            "includeDescendants": true,
+            "includeMapped": false
           },
           {
             "concept": {
@@ -408,7 +511,9 @@
               "VOCABULARY_ID": "ISBT Attribute",
               "CONCEPT_CLASS_ID": "ISBT Class"
             },
-            "includeDescendants": true
+            "isExcluded": false,
+            "includeDescendants": true,
+            "includeMapped": false
           },
           {
             "concept": {
@@ -423,7 +528,9 @@
               "VOCABULARY_ID": "ISBT Attribute",
               "CONCEPT_CLASS_ID": "ISBT Class"
             },
-            "includeDescendants": true
+            "isExcluded": false,
+            "includeDescendants": true,
+            "includeMapped": false
           },
           {
             "concept": {
@@ -438,77 +545,192 @@
               "VOCABULARY_ID": "ISBT Attribute",
               "CONCEPT_CLASS_ID": "ISBT Class"
             },
-            "includeDescendants": true
+            "isExcluded": false,
+            "includeDescendants": true,
+            "includeMapped": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 1,
+      "name": "[FDA CD] ARDS",
+      "expression": {
+        "items": [
+          {
+            "concept": {
+              "CONCEPT_ID": 46273719,
+              "CONCEPT_NAME": "Acute hypercapnic respiratory failure",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "709110009",
+              "DOMAIN_ID": "Condition",
+              "VOCABULARY_ID": "SNOMED",
+              "CONCEPT_CLASS_ID": "Clinical Finding"
+            },
+            "isExcluded": false,
+            "includeDescendants": false,
+            "includeMapped": false
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 46271075,
+              "CONCEPT_NAME": "Acute hypoxemic respiratory failure",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "709111008",
+              "DOMAIN_ID": "Condition",
+              "VOCABULARY_ID": "SNOMED",
+              "CONCEPT_CLASS_ID": "Clinical Finding"
+            },
+            "isExcluded": false,
+            "includeDescendants": false,
+            "includeMapped": false
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 4191650,
+              "CONCEPT_NAME": "Acute respiratory distress",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "373895009",
+              "DOMAIN_ID": "Condition",
+              "VOCABULARY_ID": "SNOMED",
+              "CONCEPT_CLASS_ID": "Clinical Finding"
+            },
+            "isExcluded": false,
+            "includeDescendants": false,
+            "includeMapped": false
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 4195694,
+              "CONCEPT_NAME": "Acute respiratory distress syndrome",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "67782005",
+              "DOMAIN_ID": "Condition",
+              "VOCABULARY_ID": "SNOMED",
+              "CONCEPT_CLASS_ID": "Clinical Finding"
+            },
+            "isExcluded": false,
+            "includeDescendants": false,
+            "includeMapped": false
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 319049,
+              "CONCEPT_NAME": "Acute respiratory failure",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "65710008",
+              "DOMAIN_ID": "Condition",
+              "VOCABULARY_ID": "SNOMED",
+              "CONCEPT_CLASS_ID": "Clinical Finding"
+            },
+            "isExcluded": false,
+            "includeDescendants": false,
+            "includeMapped": false
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 46271074,
+              "CONCEPT_NAME": "Hypercapnic respiratory failure",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "709109004",
+              "DOMAIN_ID": "Condition",
+              "VOCABULARY_ID": "SNOMED",
+              "CONCEPT_CLASS_ID": "Clinical Finding"
+            },
+            "isExcluded": false,
+            "includeDescendants": false,
+            "includeMapped": false
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 37395564,
+              "CONCEPT_NAME": "Hypoxemic respiratory failure",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "10676831000119101",
+              "DOMAIN_ID": "Condition",
+              "VOCABULARY_ID": "SNOMED",
+              "CONCEPT_CLASS_ID": "Clinical Finding"
+            },
+            "isExcluded": false,
+            "includeDescendants": false,
+            "includeMapped": false
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 4256228,
+              "CONCEPT_NAME": "Respiratory failure",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "409622000",
+              "DOMAIN_ID": "Condition",
+              "VOCABULARY_ID": "SNOMED",
+              "CONCEPT_CLASS_ID": "Clinical Finding"
+            },
+            "isExcluded": false,
+            "includeDescendants": false,
+            "includeMapped": false
+          },
+          {
+            "concept": {
+              "CONCEPT_ID": 318459,
+              "CONCEPT_NAME": "Respiratory insufficiency",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "CONCEPT_CODE": "409623005",
+              "DOMAIN_ID": "Condition",
+              "VOCABULARY_ID": "SNOMED",
+              "CONCEPT_CLASS_ID": "Clinical Finding"
+            },
+            "isExcluded": false,
+            "includeDescendants": false,
+            "includeMapped": false
           }
         ]
       }
     }
   ],
-  "PrimaryCriteria": {
-    "CriteriaList": [
-      {
-        "VisitOccurrence": {}
-      }
-    ],
-    "ObservationWindow": {
-      "PriorDays": 0,
-      "PostDays": 0
-    },
-    "PrimaryCriteriaLimit": {
-      "Type": "All"
-    }
-  },
-  "AdditionalCriteria": {
-    "Type": "ALL",
-    "CriteriaList": [
-      {
-        "Criteria": {
-          "DeviceExposure": {
-            "CodesetId": 0,
-            "OccurrenceStartDate": {
-              "Value": "2010-01-01",
-              "Op": "gte"
-            }
-          }
-        },
-        "StartWindow": {
-          "Start": {
-            "Days": 0,
-            "Coeff": -1
-          },
-          "End": {
-            "Coeff": 1
-          },
-          "UseEventEnd": false
-        },
-        "RestrictVisit": true,
-        "Occurrence": {
-          "Type": 2,
-          "Count": 1
-        }
-      }
-    ],
-    "DemographicCriteriaList": [],
-    "Groups": []
-  },
   "QualifiedLimit": {
-    "Type": "All"
+    "Type": ["All"]
   },
   "ExpressionLimit": {
-    "Type": "All"
+    "Type": ["All"]
   },
   "InclusionRules": [],
   "EndStrategy": {
     "DateOffset": {
-      "DateField": "StartDate",
-      "Offset": 1
+      "DateField": ["StartDate"],
+      "Offset": [1]
     }
   },
   "CensoringCriteria": [],
   "CollapseSettings": {
-    "CollapseType": "ERA",
-    "EraPad": 0
+    "CollapseType": ["ERA"],
+    "EraPad": [0]
   },
-  "CensorWindow": {},
-  "cdmVersionRange": ">=5.0.0"
+  "CensorWindow": {}
 }
